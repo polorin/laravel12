@@ -26,6 +26,15 @@
     }
 }
 
+/* Sidebar specific fixes - ensure it's above header */
+#slideMenu {
+    z-index: 60 !important;
+}
+
+#menuOverlay {
+    z-index: 55 !important;
+}
+
 /* Prevent iOS safari from hiding nav bars on scroll */
 @media screen and (max-width: 768px) {
     #main-header {

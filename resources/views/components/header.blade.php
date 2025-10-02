@@ -54,7 +54,7 @@
     </div>
 
     <!-- Slide Menu -->
-    <div id="slideMenu" class="fixed top-0 right-0 h-full w-80 transform translate-x-full transition-transform duration-300 z-50 shadow-2xl"
+    <div id="slideMenu" class="fixed top-0 right-0 h-full w-80 transform translate-x-full transition-transform duration-300 z-[60] shadow-2xl"
         style="background-color: {{ $settings['sidebar_bg_color'] ?? '#0f0f0f' }};">
         <div class="flex flex-col h-full">
             <!-- Header dengan logo dan close button -->
@@ -340,7 +340,7 @@
     </div>
 
     <!-- Overlay -->
-    <div id="menuOverlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden"></div>
+    <div id="menuOverlay" class="fixed inset-0 bg-black bg-opacity-50 z-[55] hidden"></div>
 </header>
 
 <script>
