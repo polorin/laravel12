@@ -1,6 +1,6 @@
 <!-- Bottom Navigation Component -->
 <nav id="bottom-nav" class="fixed bottom-0 left-0 right-0 z-40 border-t border-gray-700 shadow-2xl"
-     style="background-color: {{ $settings['bottom_nav_bg_color'] ?? '#1a1a1a' }}; padding-bottom: env(safe-area-inset-bottom);">
+     style="background-color: {{ $settings['bottom_nav_bg_color'] ?? '#1a1a1a' }}; padding-bottom: env(safe-area-inset-bottom); position: fixed !important; bottom: 0 !important; width: 100% !important; transform: translate3d(0, 0, 0); backface-visibility: hidden; -webkit-backface-visibility: hidden;">
     <div class="grid grid-cols-5 h-16">
         <!-- Beranda -->
         @auth

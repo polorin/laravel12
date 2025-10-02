@@ -18,7 +18,7 @@
     $sidebarMenuBgStyle = sprintf('rgba(%d, %d, %d, %.2f)', $sidebarMenuRgb[0], $sidebarMenuRgb[1], $sidebarMenuRgb[2], $sidebarMenuOpacity);
 @endphp
 <header id="main-header" class="fixed inset-x-0 top-0 z-50 w-full shadow-lg transition-colors duration-300"
-    style="background-color: {{ $settings['header_bg_color'] ?? '#1a1a1a' }}; padding-top: env(safe-area-inset-top);">
+    style="background-color: {{ $settings['header_bg_color'] ?? '#1a1a1a' }}; padding-top: env(safe-area-inset-top); position: fixed !important; top: 0 !important; transform: translate3d(0, 0, 0); backface-visibility: hidden; -webkit-backface-visibility: hidden;">
     <div class="container mx-auto px-4">
         <div class="flex items-center justify-between h-16">
             <!-- Logo Tengah -->
