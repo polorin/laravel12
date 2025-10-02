@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Updated: 2025-10-02 - Mobile navigation fixes applied */
+
 /* Fixed positioning fixes for mobile browsers */
 @supports (position: fixed) {
     #main-header, #bottom-nav {
